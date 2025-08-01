@@ -1,0 +1,57 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "Mac",
+//             "includePath": [
+//                 "${workspaceFolder}/**"
+//             ],
+//             "defines": [],
+//             "compilerPath": "/usr/bin/clang",
+//             "cStandard": "c17",
+//             "cppStandard": "c++14",
+//             "intelliSenseMode": "macos-clang-arm64"
+//         }
+//     ],
+//     "version": 4
+// }
+
+// {
+//   "configurations": [
+//     {
+//       "name": "Mac",
+//       "includePath": [
+//         "${workspaceFolder}/**",
+//         "/opt/homebrew/include",          // SFML headers
+//         "/opt/homebrew/include/SFML"
+//       ],
+//       "libPath": [
+//         "/opt/homebrew/lib"               // SFML libraries
+//       ],
+//       "defines": [],
+//       "compilerPath": "/usr/bin/clang++",
+//       "cStandard": "c11",
+//       "cppStandard": "c++17",
+//       "intelliSenseMode": "macos-clang-x64"
+//     }
+//   ],
+//   "version": 4
+// }
+
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include",
+        "/opt/homebrew/include/SFML"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/clang++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64"
+    }
+  ],
+  "version": 4
+}
