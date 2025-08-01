@@ -21,4 +21,4 @@ target_link_libraries(ReactionGame sfml-graphics sfml-window sfml-system)
 target_include_directories(ReactionGame PRIVATE /opt/homebrew/include)
 
 # Optional: Set custom output name
-set_target_properties(ReactionGame PROPERTIES OUTPUT_NAME "game")
+set_target_properties(ReactionGame PROPERTIES OUTPUT_NAME "ReactionGame")
